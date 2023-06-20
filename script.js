@@ -1,3 +1,14 @@
-//Interface: Console
-//Input: 'rock' or 'Rock' or 'RocK' paper scissors string for prompt
-//Output: 'You win' 
+//Declares variable that contains choices
+const choice = ['rock','paper','scissors'];
+
+//Declares variable that contains random position in the choice 
+const random = Math.floor(Math.random() * choice.length);
+
+//Choose random position and return the string value
+function getComputerChoice() {
+  return choice[random]
+}
+
+
+
+
