@@ -9,6 +9,13 @@ function getComputerChoice() {
   return choice[random]
 }
 
+//takes input
+let playerAnswer = prompt("Rock? Paper? Scissors?");
+//Lowers the answer down to lower cases
+let playerSelection = playerAnswer.toLowerCase();
+
+
+
 
 
 
