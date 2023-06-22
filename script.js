@@ -37,19 +37,6 @@ function compareSelections(playerSelection, computerSelection) {
 }
 console.log(compareSelections(playerSelection, computerSelection));
 
-function game() {
-  let playerWinCount = 0;
-  let computerWinCount = 0;
-  
-  if (compareSelections(playerSelection, computerSelection).includes('You Win')){
-    playerWinCount + 1;
-  } else {
-    computerWinCount + 1;
-  }
-  return [playerWinCount, computerWinCount]
-}
 
-
-console.log(game())
 
 
