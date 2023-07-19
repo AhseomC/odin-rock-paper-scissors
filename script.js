@@ -35,8 +35,21 @@ function compareSelections(playerSelection, computerSelection) {
   } 
   return result;
 }
-console.log(compareSelections(playerSelection, computerSelection));
 
 
 
+function countResult() {
+  let message = compareSelections(playerSelection, computerSelection);
+  let playerWinCount = 0;
+  let computerWinCount = 0;
 
+  if (message.includes("You Win")) {
+    playerWinCount++;
+  } else {
+    computerWinCount++;
+  } 
+  console.log(message);
+  console.log(`Score: You{playerWinCount}, Computer {computerWinCount}`)
+}
+
+countResult()
