@@ -49,7 +49,7 @@ function countResult() {
     computerWinCount++;
   } 
   console.log(message);
-  console.log(`Score: You{playerWinCount}, Computer {computerWinCount}`)
+  console.log(`Score: You ${playerWinCount}, Computer ${computerWinCount}`)
 }
 
 countResult()
